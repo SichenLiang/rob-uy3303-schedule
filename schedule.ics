@@ -1,0 +1,764 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ddl-sync//course schedule 0.1//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ROB-UY 3303
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a513a476154afa2bb3b47049e678a17b@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:Introduction\, History\, and Architectures
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Sep. 02\, 2026 Introduction\, History\, and Archite
+ ctures\nsource: https://sites.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Introduction\, History\, and Architectures
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e9d5cf54701b01f1133c97d5e6d6aa88@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:[?] Labor Day - no class
+DESCRIPTION:kind: lecture\nconfidence: uncertain\nwhy uncertain:\n  - year 
+ 2026 taken from the page\n  - negation/correction word 'no class' near the
+  date\nsource line: Sep. 07\, 2026 Labor Day - no class\nsource: https://s
+ ites.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:[?] Labor Day - no class
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c6cf2bf7c2f9d24cbee4b1d26a9cc0fb@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+SUMMARY:ASSIGNED: Assignment 1 - Robot Building
+DESCRIPTION:kind: assignment_out\nconfidence: certain\nnote: year 2026 take
+ n from the page\nnote: no due cue on this date\; the assignments page stat
+ es left-hand dates are release dates\nsource line: Sep. 09\, 2026 Assignme
+ nt 1 - Robot Building Due Sep. 13\nsource: https://sites.google.com/nyu.ed
+ u/rob-uy3303/assignments
+URL:https://sites.google.com/nyu.edu/rob-uy3303/assignments
+CATEGORIES:assignment_out
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:ASSIGNED: Assignment 1 - Robot Building
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:38eaaf4b2d06784559c6f73e78db2f50@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+SUMMARY:Coordinate Frames\, Kinematics\, Probability
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Sep. 09\, 2026 Coordinate Frames\, Kinematics\, Pro
+ bability\nsource: https://sites.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Coordinate Frames\, Kinematics\, Probability
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1a71a55980fd5be8b1daec57ae45cce4@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;TZID=America/New_York:20260913T235900
+DTEND;TZID=America/New_York:20260914T002900
+SUMMARY:DUE: Assignment 1 - Robot Building
+DESCRIPTION:kind: assignment_due\nconfidence: certain\nnote: year absent fr
+ om the page\; filled 2026 from semester anchor 'fall-2026'\nnote: no expli
+ cit time\; applied default due time 23:59\nsource line: Sep. 09\, 2026 Ass
+ ignment 1 - Robot Building Due Sep. 13\nsource: https://sites.google.com/n
+ yu.edu/rob-uy3303/assignments
+URL:https://sites.google.com/nyu.edu/rob-uy3303/assignments
+CATEGORIES:assignment_due
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:DUE: Assignment 1 - Robot Building
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:59cb529cadf8650af85b853e2948308c@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:ASSIGNED: Assignment 2 - Robot Motion Modeling
+DESCRIPTION:kind: assignment_out\nconfidence: certain\nnote: year 2026 take
+ n from the page\nnote: no due cue on this date\; the assignments page stat
+ es left-hand dates are release dates\nsource line: Sep. 14\, 2026 Assignme
+ nt 2 - Robot Motion Modeling Due Sep. 27\nsource: https://sites.google.com
+ /nyu.edu/rob-uy3303/assignments
+URL:https://sites.google.com/nyu.edu/rob-uy3303/assignments
+CATEGORIES:assignment_out
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:ASSIGNED: Assignment 2 - Robot Motion Modeling
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1396987d87962e1f54372340a57c65b2@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:Configuration Space of Different Robots
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Sep. 14\, 2026 Configuration Space of Different Rob
+ ots\nsource: https://sites.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Configuration Space of Different Robots
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f20bf0a5a22aef1ee1d286ebcd63e679@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:The Differential Drive Robot
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Sep. 16\, 2026 The Differential Drive Robot\nsource
+ : https://sites.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:The Differential Drive Robot
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1868d496f0ba62df9fb9a9e7c5e4f0dd@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:Trajectory Tracking & Control
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Sep. 21\, 2026 Trajectory Tracking & Control\nsourc
+ e: https://sites.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Trajectory Tracking & Control
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a1e1b30b28dcbb9a06c549e438b9eca8@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:Tree Search Algorithms I
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Sep. 23\, 2026 Tree Search Algorithms I\nsource: ht
+ tps://sites.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tree Search Algorithms I
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5f3d791d49a4dc19d643025b8b713f57@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;TZID=America/New_York:20260927T235900
+DTEND;TZID=America/New_York:20260928T002900
+SUMMARY:DUE: Assignment 2 - Robot Motion Modeling
+DESCRIPTION:kind: assignment_due\nconfidence: certain\nnote: year absent fr
+ om the page\; filled 2026 from semester anchor 'fall-2026'\nnote: no expli
+ cit time\; applied default due time 23:59\nsource line: Sep. 14\, 2026 Ass
+ ignment 2 - Robot Motion Modeling Due Sep. 27\nsource: https://sites.googl
+ e.com/nyu.edu/rob-uy3303/assignments
+URL:https://sites.google.com/nyu.edu/rob-uy3303/assignments
+CATEGORIES:assignment_due
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:DUE: Assignment 2 - Robot Motion Modeling
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:55e0c4f2d1a6f70277494e418a4da98d@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:ASSIGNED: Assignment 3 - Trajectory Following
+DESCRIPTION:kind: assignment_out\nconfidence: certain\nnote: year 2026 take
+ n from the page\nnote: no due cue on this date\; the assignments page stat
+ es left-hand dates are release dates\nsource line: Sep. 28\, 2026 Assignme
+ nt 3 - Trajectory Following Due Oct. 04\nsource: https://sites.google.com/
+ nyu.edu/rob-uy3303/assignments
+URL:https://sites.google.com/nyu.edu/rob-uy3303/assignments
+CATEGORIES:assignment_out
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:ASSIGNED: Assignment 3 - Trajectory Following
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d542bade6857ac361bb0705be0fab62c@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:Tree Search Algorithms II
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Sep. 28\, 2026 Tree Search Algorithms II\nsource: h
+ ttps://sites.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tree Search Algorithms II
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ef49e85adc2f0c19dce03dcaaa777e5b@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Sampling Based Algorithms I
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Sep. 30\, 2026 Sampling Based Algorithms I\nsource:
+  https://sites.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Sampling Based Algorithms I
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b596dd5b76cf58f6875ba576d3d6d92f@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;TZID=America/New_York:20261004T235900
+DTEND;TZID=America/New_York:20261005T002900
+SUMMARY:DUE: Assignment 3 - Trajectory Following
+DESCRIPTION:kind: assignment_due\nconfidence: certain\nnote: year absent fr
+ om the page\; filled 2026 from semester anchor 'fall-2026'\nnote: no expli
+ cit time\; applied default due time 23:59\nsource line: Sep. 28\, 2026 Ass
+ ignment 3 - Trajectory Following Due Oct. 04\nsource: https://sites.google
+ .com/nyu.edu/rob-uy3303/assignments
+URL:https://sites.google.com/nyu.edu/rob-uy3303/assignments
+CATEGORIES:assignment_due
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:DUE: Assignment 3 - Trajectory Following
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dfa8783e689b38c921cb27ee52830018@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:ASSIGNED: Assignment 4 - Tree Search MP
+DESCRIPTION:kind: assignment_out\nconfidence: certain\nnote: year 2026 take
+ n from the page\nnote: no due cue on this date\; the assignments page stat
+ es left-hand dates are release dates\nsource line: Oct. 05\, 2026 Assignme
+ nt 4 - Tree Search MP Due Oct. 18\nsource: https://sites.google.com/nyu.ed
+ u/rob-uy3303/assignments
+URL:https://sites.google.com/nyu.edu/rob-uy3303/assignments
+CATEGORIES:assignment_out
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:ASSIGNED: Assignment 4 - Tree Search MP
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fcb4d409ccd585a7aecd1f24066fa9d7@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:Sampling Based Algorithms II
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Oct. 05\, 2026 Sampling Based Algorithms II\nsource
+ : https://sites.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Sampling Based Algorithms II
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c286064bef74c8bac92492cc0140064c@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:POMDP Planning I
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Oct. 07\, 2026 POMDP Planning I\nsource: https://si
+ tes.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:POMDP Planning I
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:68281f6f66b85ce0a72b3d8ae867e3fc@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:[?] Fall break - No class
+DESCRIPTION:kind: lecture\nconfidence: uncertain\nwhy uncertain:\n  - year 
+ 2026 taken from the page\n  - negation/correction word 'No class' near the
+  date\nsource line: Oct. 12\, 2026 Fall break - No class\nsource: https://
+ sites.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:[?] Fall break - No class
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:020a4eef38e9d5848e1a2d93e8b30b89@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:POMDP Planning II
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Oct. 14\, 2026 POMDP Planning II\nsource: https://s
+ ites.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:POMDP Planning II
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c6dcc621c7609db48ed98131c30bc96a@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;TZID=America/New_York:20261018T235900
+DTEND;TZID=America/New_York:20261019T002900
+SUMMARY:DUE: Assignment 4 - Tree Search MP
+DESCRIPTION:kind: assignment_due\nconfidence: certain\nnote: year absent fr
+ om the page\; filled 2026 from semester anchor 'fall-2026'\nnote: no expli
+ cit time\; applied default due time 23:59\nsource line: Oct. 05\, 2026 Ass
+ ignment 4 - Tree Search MP Due Oct. 18\nsource: https://sites.google.com/n
+ yu.edu/rob-uy3303/assignments
+URL:https://sites.google.com/nyu.edu/rob-uy3303/assignments
+CATEGORIES:assignment_due
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:DUE: Assignment 4 - Tree Search MP
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:273ccca00ffe02cc6b6cb92b786b6dab@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:ASSIGNED: Assignment 5 - Sampling Based MP
+DESCRIPTION:kind: assignment_out\nconfidence: certain\nnote: year 2026 take
+ n from the page\nnote: no due cue on this date\; the assignments page stat
+ es left-hand dates are release dates\nsource line: Oct. 19\, 2026 Assignme
+ nt 5 - Sampling Based MP Due Nov. 01\nsource: https://sites.google.com/nyu
+ .edu/rob-uy3303/assignments
+URL:https://sites.google.com/nyu.edu/rob-uy3303/assignments
+CATEGORIES:assignment_out
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:ASSIGNED: Assignment 5 - Sampling Based MP
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2fd6ae617f961e761305224ce51122a0@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Active Perception
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Oct. 19\, 2026 Active Perception\nsource: https://s
+ ites.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Active Perception
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:255681406536cf8775ce512ab3778e61@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Multi-Robot MP
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Oct. 21\, 2026 Multi-Robot MP\nsource: https://site
+ s.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Multi-Robot MP
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b04751e8f7ac8a59e7f64184ef66445b@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Optimization Based Planning I
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Oct. 26\, 2026 Optimization Based Planning I\nsourc
+ e: https://sites.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Optimization Based Planning I
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7f08274b14281e14685770dc6fcc79ed@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:Optimization Based Planning II
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Oct. 28\, 2026 Optimization Based Planning II\nsour
+ ce: https://sites.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Optimization Based Planning II
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f01b75b434dcd499fbe54879216d9537@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;TZID=America/New_York:20261101T235900
+DTEND;TZID=America/New_York:20261102T002900
+SUMMARY:DUE: Assignment 5 - Sampling Based MP
+DESCRIPTION:kind: assignment_due\nconfidence: certain\nnote: year absent fr
+ om the page\; filled 2026 from semester anchor 'fall-2026'\nnote: no expli
+ cit time\; applied default due time 23:59\nsource line: Oct. 19\, 2026 Ass
+ ignment 5 - Sampling Based MP Due Nov. 01\nsource: https://sites.google.co
+ m/nyu.edu/rob-uy3303/assignments
+URL:https://sites.google.com/nyu.edu/rob-uy3303/assignments
+CATEGORIES:assignment_due
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:DUE: Assignment 5 - Sampling Based MP
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b49f39cd60d382739c925e9d0248e2cf@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Midterm Exam Review
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Nov. 02\, 2026 Midterm Exam Review\nsource: https:/
+ /sites.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Midterm Exam Review
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:12c67d12db0b577736688a7d0ec642fd@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Midterm Exam
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Nov. 04\, 2026 Midterm Exam\nsource: https://sites.
+ google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Midterm Exam
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:39d3961091defeff8641411a357c9ca7@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:ASSIGNED: Assignment 6 - Multi-Robot MP
+DESCRIPTION:kind: assignment_out\nconfidence: certain\nnote: year 2026 take
+ n from the page\nnote: no due cue on this date\; the assignments page stat
+ es left-hand dates are release dates\nsource line: Nov. 09\, 2026 Assignme
+ nt 6 - Multi-Robot MP Due Nov. 22\nsource: https://sites.google.com/nyu.ed
+ u/rob-uy3303/assignments
+URL:https://sites.google.com/nyu.edu/rob-uy3303/assignments
+CATEGORIES:assignment_out
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:ASSIGNED: Assignment 6 - Multi-Robot MP
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:da731c2ca14bde8ac3d3d76318820e11@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:APF Olympics
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Nov. 09\, 2026 APF Olympics\nsource: https://sites.
+ google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:APF Olympics
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7ef7ffb111d7b5a4501b15e2768be53f@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Novel Robot MP
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Nov. 11\, 2026 Novel Robot MP\nsource: https://site
+ s.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Novel Robot MP
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1a6b93e3350719bcb550ff24b9bb211b@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:ML Based MP I
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Nov. 16\, 2026 ML Based MP I\nsource: https://sites
+ .google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:ML Based MP I
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:56538c1f8a00d18ec81ec15cd4da4e48@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:ML Based MP II
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Nov. 18\, 2026 ML Based MP II\nsource: https://site
+ s.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:ML Based MP II
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:28717243aff2deb6c6429f21e7d9f46d@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;TZID=America/New_York:20261122T235900
+DTEND;TZID=America/New_York:20261123T002900
+SUMMARY:DUE: Assignment 6 - Multi-Robot MP
+DESCRIPTION:kind: assignment_due\nconfidence: certain\nnote: year absent fr
+ om the page\; filled 2026 from semester anchor 'fall-2026'\nnote: no expli
+ cit time\; applied default due time 23:59\nsource line: Nov. 09\, 2026 Ass
+ ignment 6 - Multi-Robot MP Due Nov. 22\nsource: https://sites.google.com/n
+ yu.edu/rob-uy3303/assignments
+URL:https://sites.google.com/nyu.edu/rob-uy3303/assignments
+CATEGORIES:assignment_due
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:DUE: Assignment 6 - Multi-Robot MP
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:86d24514a9941debf31feab406e9d0da@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Project Kickoff
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Nov. 23\, 2026 Project Kickoff\nsource: https://sit
+ es.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Project Kickoff
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4a9f488e250c56141c218c8b4c9bfaa2@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Project Proposals
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Nov. 25\, 2026 Project Proposals\nsource: https://s
+ ites.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Project Proposals
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b920816d1bc3f496666e95d186fe3114@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Project Lit. Review I
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Nov. 30\, 2026 Project Lit. Review I\nsource: https
+ ://sites.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Project Lit. Review I
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:247782cd4ac41b061ea408801462af24@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Project Lit. Review II
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Dec. 02\, 2026 Project Lit. Review II\nsource: http
+ s://sites.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Project Lit. Review II
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:95065a881bfabeb4ad716cf4f482b4f6@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Project working session
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Dec. 07\, 2026 Project working session\nsource: htt
+ ps://sites.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Project working session
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f76ad16fb732274f5a5b5a5dd24636eb@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Project working session
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Dec. 09\, 2026 Project working session\nsource: htt
+ ps://sites.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Project working session
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:45a067e2384d270ccc6ea5e6920bd960@ddl-sync
+DTSTAMP:20260903T180432Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:Project Final Presentations
+DESCRIPTION:kind: lecture\nconfidence: certain\nnote: year 2026 taken from 
+ the page\nsource line: Dec. 14\, 2026 Project Final Presentations\nsource:
+  https://sites.google.com/nyu.edu/rob-uy3303/lectures
+URL:https://sites.google.com/nyu.edu/rob-uy3303/lectures
+CATEGORIES:lecture
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Project Final Presentations
+END:VALARM
+END:VEVENT
+END:VCALENDAR
